@@ -2,7 +2,13 @@ const mongoose = require("mongoose");
 
 const FilmeSchema = {
     titulo: String,
-    preco: Number,
+    genero: String,
+    diretor: String,
+    produtor: String,
+    ano: Number,
+    duracao: Number,
+    distribuidora: String,
+    bilheteria: Number,
     foto: String  
 }
 
